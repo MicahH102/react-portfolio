@@ -22,6 +22,7 @@ export default class PortfolioContainer extends Component {
             <div>
                 <h2>{this.state.pageTitle}</h2>
             </div>
+            
         )
     }
 }
