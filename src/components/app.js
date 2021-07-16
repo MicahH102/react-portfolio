@@ -21,7 +21,7 @@ export default class App extends Component {
         <div></div>
         
           <div className="App">
-            <TypeIt text-weight="bold">{moment().format('MMMM Do YYYY, h:mm:ss a')}</TypeIt>
+            <TypeIt option>{moment().format('MMMM Do YYYY, h:mm:ss a')}</TypeIt>
           </div>
 
       </div>
